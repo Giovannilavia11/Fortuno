@@ -1,0 +1,35 @@
+body {
+    background-color: #121212;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.form-control {
+    background-color: #2C2C2C;
+    color: white;
+    border: none;
+}
+
+.form-control:focus {
+    background-color: #2C2C2C;
+    color: white;
+    box-shadow: none;
+    border: 1px solid #3E8DFF;
+}
+
+.btn-primary {
+    background-color: #3E8DFF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3272CC;
+}
